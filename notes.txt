@@ -1,0 +1,11 @@
+@Component: identifies class as component class; tells a bean should be created of that class
+@ComponentScan: enables component scanning; scans the package and subpackages and look for @Component class
+                and automatically create bean for it during configuration
+@Autowired: satisfies bean's dependencies by finding other beans that matches the bean's needs. can be used for
+                constructors, setters, any method, declarations
+                 --If there are no matching beans, Spring will throw an exception as the application
+                context is being created. To avoid that exception, you can set the required attribute
+                on @Autowired to false:
+
+@Configuration annotation identifies this as a configuration class, and it’s expected
+to contain details on beans that are to be created in the Spring application context.
