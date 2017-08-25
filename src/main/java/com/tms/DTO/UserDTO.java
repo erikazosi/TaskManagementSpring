@@ -4,14 +4,16 @@ package com.tms.DTO;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 @Getter
 @Setter
-public class UserDTO {
-    int id;
-    String firstName;
-    String lastName;
-    String username;
-    String password;
-    String email;
+public class UserDTO implements Serializable  {
+    private int id;
+    private String firstName;
+    private String lastName;
+    private String username;
+    private String password;
+    private String email;
 
 }

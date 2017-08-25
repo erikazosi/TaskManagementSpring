@@ -1,11 +1,16 @@
 package com.tms.utils;
 
+import com.tms.DTO.DashboardDTO;
 import com.tms.DTO.UserDTO;
 import com.tms.entity.User;
+import com.tms.service.UserService;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserUtils {
 
-    public static UserDTO convertRequestToDTO(User user) {
+    public static UserDTO convertEntityToDTO(User user) {
         UserDTO userDTO= new UserDTO();
         userDTO.setUsername(user.getUsername());
         userDTO.setFirstName(user.getFirstName());
@@ -28,4 +33,21 @@ public class UserUtils {
         user.setId(userDTO.getId());
         return user;
     }
+
+    public static List<DashboardDTO> convertToDashboardDTO(List<User> user) {
+
+        List<DashboardDTO> result = new ArrayList<DashboardDTO>();
+        for (User u : user) {
+            DashboardDTO dash = new DashboardDTO();
+            dash.setFirstName(u.getFirstName());
+            dash.setEmail(u.getEmail());
+            dash.setId(u.getId());
+            dash.setLastName(u.getLastName());
+            dash.setPassword(u.getPassword());
+            dash.setUsername(u.getUsername());
+            result.add(dash);
+        }
+    return result;
+    }
+
 }

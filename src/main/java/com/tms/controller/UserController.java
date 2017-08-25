@@ -2,41 +2,73 @@ package com.tms.controller;
 
 
 import com.tms.DTO.UserDTO;
-import com.tms.entity.User;
 import com.tms.service.UserService;
-import com.tms.service.impl.UserServiceImpl;
-import com.tms.utils.UserUtils;
-import org.springframework.stereotype.Controller;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static org.springframework.web.bind.annotation.RequestMethod.POST;
 
-@Controller
+@RestController
 @RequestMapping("/user")
 public class UserController {
-    public final UserService userService;
 
-    public UserController() {
-        // todo improve
-        this.userService = new UserServiceImpl();
+    private final UserService userService;
+
+    public UserController(UserService UserServiceImpl) {
+        this.userService = UserServiceImpl;
     }
 
 
-    @RequestMapping(value="/register", method=GET)
-    public String showSignupForm() {
-        return "signup";
+    @RequestMapping(value = "/register", method = GET)
+    public ModelAndView showSignupForm(ModelMap model) {
+        model.addAttribute(new UserDTO());
+
+        return new ModelAndView("signup","" ,new UserDTO());
     }
 
 
-    @RequestMapping(value = "/register", method=POST)
-    public String processRegistration(User users) {
+    @RequestMapping(value = "/register", method = POST)
+    public String processRegistration(UserDTO userDTO, BindingResult result, ModelMap model) {
+        if (result.hasErrors()) {
+            return "home";
+        }
 
-        UserDTO userDTO = UserUtils.convertRequestToDTO(users);
         userService.addAdmin(userDTO);
+
+        model.addAttribute("success", "Dear " + userDTO.getFirstName() + " , your Registration completed successfully");
+
+
         return "redirect:/home";
 
 
     }
+
+    @RequestMapping(value = "/edit/{userId}", method = GET)
+    public ModelAndView showEditForm(UserDTO userDTO, @PathVariable("userId") int userId) {
+
+
+        UserDTO userDTo = userService.findById(userId);
+
+
+        return new ModelAndView("edit", "user", userDTo);
+    }
+
+    @RequestMapping(value = "/edit/{userId}", method = POST)
+    public ModelAndView processEditUser(UserDTO userDTO, @PathVariable("userId") int userId) {
+
+
+        UserDTO userDTo = userService.findById(userId);
+
+
+        return new ModelAndView("edit", "user", userDTo);
+    }
+
 
 }

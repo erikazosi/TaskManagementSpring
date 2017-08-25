@@ -13,12 +13,19 @@
 <body>
 <h2>Sign Up</h2>
 <form method="post">
-    <input type="text" name="firstName" placeholder="Enter first name"/>
-    <input type="text" name="lastName" placeholder="Enter last name"/>
-    <input type="text" name="username" placeholder="Enter username"/>
-    <input type="password" name="password" placeholder="Enter password"/>
-    <input type="email" name="email" placeholder="Enter Email"/>
-    <input type="submit" name="submit" value="Sign Up"/>
+    <input type="text" name="firstName" placeholder="Enter first name"/><br><br>
+    <span id="firstName.errors">size must be between 2 and 30</span><br><br>
+    <input type="text" name="lastName" placeholder="Enter last name"/><br><br>
+    <input type="text" name="username" placeholder="Enter username"/><br><br>
+    <input type="password" name="password" placeholder="Enter password"/><br><br>
+    <input type="email" name="email" placeholder="Enter Email"/><br><br>
+    <input type="submit" name="submit" value="Sign Up"/><br><br>
+    <label>Profile Picture</label>:
+    <%--<input type="file"--%>
+           <%--name="profilePicture"--%>
+           <%--accept="image/jpeg,image/png,image/gif"/><br><br>--%>
+
+
 </form>
 
 </body>

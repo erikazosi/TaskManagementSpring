@@ -9,3 +9,7 @@
 
 @Configuration annotation identifies this as a configuration class, and it’s expected
 to contain details on beans that are to be created in the Spring application context.
+@RequestParam: get value of variable passed in url after ?
+@PathVaraible: get value of first variable in url; value passed in /{ ..}
+@RequestBody: get the entire object
+
