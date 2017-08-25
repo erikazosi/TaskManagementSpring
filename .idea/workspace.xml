@@ -7,81 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323ee876-7fc2-4c30-9eb5-67689f8b850d" name="Default" comment="notes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/RestApiController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/TestAutowire.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/TestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tms/repository/UserRepo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/tms/Dao/UserRepo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/DTO/Users.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/hibernate-core-4.2.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/DTO/UserDTO.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/DTO/UserDTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/Dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/Dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/Dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/Dao/impl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/config/RootConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/config/WebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/config/WebInit.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/config/WebInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/controller/SignUpController.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/controller/SignUpController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tms/utils/UserUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/tms/utils/UserUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement.war" afterPath="$PROJECT_DIR$/target/taskmanagement.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/DTO/UserDTO.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/DTO/UserDTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/Dao/UserDao.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/Dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/Dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/Dao/impl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/RootConfig.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/RootConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/WebConfig.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/WebConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/WebInit.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/config/WebInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/SignUpController.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/SignUpController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/UserController.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/entity/User.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/service/UserService.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/utils/UserUtils.class" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/classes/com/tms/utils/UserUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/taskmanagement_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/taskmanagement_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/TC.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TC.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/DTO/DashboardDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/DTO/DashboardDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/DTO/UserDTO.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/DTO/UserDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/Dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/Dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/Dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/Dao/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/config/JpaConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/config/JpaConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/config/WebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/config/WebConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/config/WebInit.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/config/WebInit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/controller/SignUpController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/SignUpController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/utils/UserUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/utils/UserUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/edit.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/pages/home.jsp" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/pages/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/pages/signup.jsp" afterPath="$PROJECT_DIR$/target/taskmanagement/WEB-INF/pages/signup.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taskmanagement.iml" afterPath="$PROJECT_DIR$/taskmanagement.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -133,7 +59,7 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="340">
               <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -607,7 +533,7 @@
       <workItem from="1503386692770" duration="9517000" />
       <workItem from="1503462540698" duration="2973000" />
       <workItem from="1503636280524" duration="6395000" />
-      <workItem from="1503645511297" duration="5337000" />
+      <workItem from="1503645511297" duration="5909000" />
     </task>
     <task id="LOCAL-00001" summary="notes added">
       <created>1502884111224</created>
@@ -620,11 +546,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79962000" />
+    <option name="totallyTimeSpent" value="80534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -646,7 +571,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40460527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27617604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1069,7 +994,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="340">
           <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
