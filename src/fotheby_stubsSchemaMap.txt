@@ -1,0 +1,15 @@
+#
+# Generated with Matisse Schema Definition Language 9.1.10
+# Generation date: Sat Mar 24 15:35:35 2018
+#
+# Mapping of Java classes and indexes to the corresponding database schema objects
+#
+FothabyCompany.FothabyApp.Category = FothabyCompany.FothabyApp.Category
+FothabyCompany.FothabyApp.categoryDict = FothabyCompany.FothabyApp.categoryDict
+FothabyCompany.FothabyApp.AuctionItem = FothabyCompany.FothabyApp.AuctionItem
+FothabyCompany.FothabyApp.AuctionItemFind = FothabyCompany.FothabyApp.AuctionItemFind
+FothabyCompany.FothabyApp.ItemBid = FothabyCompany.FothabyApp.ItemBid
+FothabyCompany.FothabyApp.bidNumberDict = FothabyCompany.FothabyApp.bidNumberDict
+FothabyCompany.FothabyApp.User = FothabyCompany.FothabyApp.User
+FothabyCompany.FothabyApp.TransactionDetail = FothabyCompany.FothabyApp.TransactionDetail
+FothabyCompany.FothabyApp.transactionIdDict = FothabyCompany.FothabyApp.transactionIdDict
